@@ -1,0 +1,356 @@
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(backback.jpg);
+}
+
+a, p, li {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 39, 41);
+    /*border-radius: 50px;*/
+    height: 90px;
+    width: 100%;
+}
+.logo{
+    height: 80px;
+    width: 100px;
+    margin: 2px 1px;
+    padding: 2px 1px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.logo-typing{
+
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: rgb(245, 71, 178);
+    font-style: normal;
+    text-decoration: transparent;
+}
+.logo-typing:hover{
+    color: white;
+    background-color: black;
+}
+li{
+    display: inline-block;
+}
+li a{
+    width: 70px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    border: 20px;
+    border-radius: 50px;
+}
+li a:hover{
+   /* height: 0.5px;
+    width: 85px;*/
+    background: rgb(20, 14, 14);
+    text-transform: uppercase;
+}
+button{
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(245, 71, 178);
+    background-color: #fff;
+}
+.container{
+    color: #fff;
+}
+.container h1{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container h1:hover{
+    background-color: white;
+    color: black;
+    width: 190px;
+    transition: all 0.5s ease;
+}
+.container h4{
+    color: gray;
+    margin-left: 50px;
+}
+.container h4:hover{
+    color: #fff;
+}
+
+.about h1{
+    color: antiquewhite;
+    margin-top: 80px;
+    margin-left: 600px;
+}
+.about h1:hover{
+    color: darkgray;
+}
+.about h3{
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 624px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.about h3:hover{
+    color: antiquewhite;
+}
+.about p{
+    height: 50vh;
+    width: 44vw;
+    color: darkgray;
+    margin-top: 5px;
+    margin-left: 385px;
+}
+.about p:hover{
+    color: white;
+}
+
+.service img{
+    height: auto;
+    width: 420px;
+    border-radius: 20px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-text h1{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    /*margin-bottom: .005px;
+    margin-left: 20px;*/
+    text-align: center;
+}
+.service-text h1:hover{
+    color: antiquewhite;
+    text-transform: lowercase;
+}
+
+.develop {
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+    text-align: center;
+}
+.develop:hover{
+    text-transform: lowercase;
+}
+.quality{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 20px;
+    width: 40vw;
+    text-align: center;
+}
+.quality:hover{
+    text-transform: ;
+}
+.extended h2{
+    color: rgb(243, 22, 107);
+    margin-top: 25px;
+    text-align: center;
+    font-size: 35px;
+}
+.extended h2:hover{
+    color: rgb(204, 101, 140);
+}
+.extended h3{
+    color: gainsboro;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.extended h3:hover{
+    color: rgb(105, 105, 105);
+}
+
+.explain{
+    /*border-radius: 20px;
+    background-color: grey;*/
+}
+.explain:hover {
+    border-radius: 15px;
+    background-color: rgb(81, 80, 82);
+}
+
+.aa{
+    /*border-radius: 10px;*/
+    color: black;
+    margin-left: 555px;
+    font-size: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    margin-top: 20px;
+}
+
+.bb{
+    /*border-radius: 10px;*/
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    color: black;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.cc{ 
+    /*border-radius: 10px;*/
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    color: black;
+    margin-left: 555px;
+    font-size: 20px;
+}
+.dd{ 
+    /*border-radius: 10px;*/
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    color: black;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.ee{ 
+    /*border-radius: 10px; */
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    color: black;
+    margin-left: 555px;
+    font-size: 20px;
+}
+.ff{ 
+   /* border-radius: 10px;*/
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 45vw;
+    color: black;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.for {
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+.for:hover{
+    color: pink;
+    text-transform: capitalize;
+}
+
+.us{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.us:hover{
+    color: lightyellow;
+    text-transform: lowercase;
+    transition: all 0.5s ease;
+}
+
+/*.contact i{
+    background-color: antiquewhite;
+    font-size: 25px;
+    border-radius: 20%;
+   
+    border-bottom-width: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 150px;
+}*/
+
+.ph{
+    color: 	#34B7F1;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ph:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.fb{
+    color: #3b5998;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fb:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.Ld{
+    color: #0072b1;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Ld:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.git{
+    color: #7a7575;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.git:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
